@@ -1,5 +1,4 @@
 const { BlobServiceClient } = require('@azure/storage-blob');
-const { v1: uuidv1 } = require('uuid'); // We can just use Date.now() if uuid isn't installed. Let's use standard naming or crypto
 
 // Let's rely on standard crypto and Path module for simpler naming
 const path = require('path');
